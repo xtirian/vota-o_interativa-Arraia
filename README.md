@@ -44,7 +44,6 @@ A interface foi pensada para ser utilizada tanto em dispositivos móveis quanto 
 ```yaml
 spa-votacao/
 ├── index.html
-├── assets
 ├── src/
 │ ├── components/
 │ ├── pages/
