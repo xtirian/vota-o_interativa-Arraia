@@ -1,6 +1,6 @@
 ::root{
-
-  
+	--text-color:#422918;
+	--bg-color1:#FCD9A4;
 }
 
 * {
@@ -18,7 +18,7 @@ ol, ul {
 
 html {
   width: 100%;
-  overflow-x: hidden;  
+  overflow: hidden;  
   margin: 0;
   padding: 0;
 }
@@ -29,13 +29,10 @@ body {
   color: #422918;
   letter-spacing: -0.72px;    
   width: 100%;
-  overflow-x: hidden;  
+  overflow: hidden;  
   margin: 0;
   padding: 0;
-}
-
-/* Força o layout mobile */
-html, body {
+  font-family: margem
 }
 
 /* Container principal com largura fixa mobile */
@@ -44,6 +41,7 @@ html, body {
   max-width: 480px; /* ou 375px para iPhone padrão */
   margin: 0 auto;
   box-sizing: border-box;
+ 
 }
 
 
