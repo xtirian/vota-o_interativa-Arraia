@@ -16,11 +16,36 @@ ol, ul {
 	list-style: none;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;  
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #FCD9A4;
   font-size: 18px;
   color: #422918;
-  letter-spacing: -0.72px;
-  
+  letter-spacing: -0.72px;    
+  width: 100%;
+  overflow-x: hidden;  
+  margin: 0;
+  padding: 0;
 }
+
+/* Força o layout mobile */
+html, body {
+}
+
+/* Container principal com largura fixa mobile */
+.mobile-wrapper {
+  width: 100%;
+  max-width: 480px; /* ou 375px para iPhone padrão */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+
 
